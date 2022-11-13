@@ -1,26 +1,26 @@
 @font-face {
-	font-family: "OpenSans";
-	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Bold.woff") format("opentype");
-	font-style: normal;
-	font-weight: 700;
-}
-@font-face {
-	font-family: "OpenSans";
-	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Semibold.woff") format("opentype");
-	font-style: italic;
-	font-weight: 600;
-}
-@font-face {
-	font-family: "OpenSans";
-	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Regular.woff") format("opentype");
+	font-family: "Condensed";
+	src: url("../../fonts/Onest Condensed-08-hint.ttf") format("opentype");
 	font-style: normal;
 	font-weight: 400;
 }
 @font-face {
-	font-family: "OpenSans";
-	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Light.woff") format("opentype");
+	font-family: "Condensed";
+	src: url("../../fonts/Onest Condensed Italic-08-hint.ttf") format("opentype");
+	font-style: italic;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Condensed";
+	src: url("../../fonts/Onest Condensed Bold-093-hint.ttf") format("opentype");
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Condensed";
+	src: url("../../fonts/Onest Condensed Bold Italic-093-hint.ttf") format("opentype");
+	font-style: italic;
+	font-weight: 700;
 }
 
-$openSans: 'OpenSans', sans;
+$condensed: 'Condensed', sans;
