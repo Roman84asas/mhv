@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Bold.woff") format("opentype");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Semibold.woff") format("opentype");
+	font-style: italic;
+	font-weight: 600;
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Regular.woff") format("opentype");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url("/wp-content/themes/na-chile/fonts/OpenSans-Light.woff") format("opentype");
+	font-style: normal;
+	font-weight: 300;
+}
+
+$openSans: 'OpenSans', sans;
