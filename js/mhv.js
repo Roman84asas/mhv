@@ -3,6 +3,7 @@
     function changeToggleActive(element) {
         element.classList.toggle('active');
     }
+
     function changeToggleActiveMobileMenu() {
         document.querySelector('.mobile_menu').classList.toggle('active_mm');
     }
@@ -27,4 +28,6 @@
         document.querySelector('.mobile_menu_close').style.display = 'none';
         document.querySelector("html").style.overflow = 'auto';
     })
+
+
 })();

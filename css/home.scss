@@ -70,7 +70,7 @@ header {
                         position: absolute;
                         padding: 0 0 12px 12px;
                         border-radius: 15px;
-                        background: rgba(203, 185, 240, 0.6);
+                        background: rgba(203, 185, 240, 0.1);
                         backdrop-filter: blur(20px);
                         li {
                             margin-bottom: 34px;
@@ -427,7 +427,187 @@ header {
         padding-bottom: 70px;
     }
 }
-
+.home_offer {
+    padding-top: 160px;
+    .wrapper {
+        .offer_title {
+            font-family: $onest;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 110%;
+            color: #0F172A;
+            margin-bottom: 65px;
+            text-align: center;
+            @media (max-width: 1200px) {
+                font-size: 50px;
+                margin-bottom: 60px;
+            }
+            @media (max-width: 880px) {
+                font-size: 40px;
+                margin-bottom: 50px;
+            }
+            @media (max-width: 550px) {
+                font-size: 30px;
+                margin-bottom: 40px;
+            }
+        }
+        .offer_top {
+            background-image: url(../images/Personal.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-color: #CBB9F0;
+            border-radius: 24px;
+            max-height: 415px;
+            padding: 48px;
+            margin-bottom: 24px;
+            .offer_top_content {
+                max-width: 525px;
+                .offer_top_title {
+                    font-family: $onest;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 110%;
+                    color: #0F172A;
+                    margin-bottom: 24px;
+                }
+                .offer_top_description {
+                    font-family: $onest;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #0F172A;
+                    margin-bottom: 30px;
+                }
+                .link {
+                    text-decoration: none;
+                    display: block;
+                    width: 120px;
+                    height: 20px;
+                    background: #0F172A;
+                    border-radius: 100px;
+                    padding: 14px 30px;
+                    font-family: $onest;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                }
+            }
+            @media (max-width: 985px) {
+                margin-bottom: 20px;
+            }
+            @media (max-width: 685px) {
+                background-image: none;
+            }
+            @media (max-width: 615px) {
+                padding: 20px;
+            }
+            @media (max-width: 530px) {
+                .offer_top_content {
+                    .offer_top_title {
+                        font-size: 26px;
+                        margin-bottom: 16px;
+                    }
+                    .offer_top_description {
+                        font-size: 14px;
+                        margin-bottom: 24px;
+                    }
+                    .link {
+                        padding: 10px 24px;
+                    }
+                }
+            }
+        }
+        .offer_items {
+            @include dsp-flex;
+            .offer_item {
+                margin-right: 24px;
+                background: #FF7833;
+                border-radius: 24px;
+                padding: 48px;
+                .offer_item_content {
+                    max-width: 525px;
+                    .offer_item_title {
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 48px;
+                        line-height: 110%;
+                        color: #0F172A;
+                        margin-bottom: 24px;
+                    }
+                    .offer_item_description {
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 150%;
+                        color: #0F172A;
+                        margin-bottom: 30px;
+                    }
+                    .link {
+                        text-decoration: none;
+                        display: block;
+                        width: 120px;
+                        height: 20px;
+                        background: #0F172A;
+                        border-radius: 100px;
+                        padding: 14px 30px;
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                    }
+                }
+                @media (max-width: 615px) {
+                    padding: 20px;
+                }
+                @media (max-width: 530px) {
+                    .offer_item_content {
+                        .offer_item_title {
+                            font-size: 26px;
+                            margin-bottom: 16px;
+                        }
+                        .offer_item_description {
+                            font-size: 14px;
+                            margin-bottom: 24px;
+                        }
+                        .link {
+                            padding: 10px 24px;
+                        }
+                    }
+                }
+            }
+            .offer_item:last-child {
+                margin-right: 0;
+                background: #B7F76D;
+            }
+            @media (max-width: 985px) {
+                @include flex-direction-column;
+                .offer_item {
+                    margin-bottom: 20px;
+                    margin-right: 0;
+                }
+                .offer_item:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    @media (max-width: 880px) {
+        padding-top: 120px;
+    }
+    @media (max-width: 550px) {
+        padding-top: 80px;
+    }
+}
 
 footer {
     background: #0F172A;
