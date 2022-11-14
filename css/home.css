@@ -1531,7 +1531,9 @@ header {
 
 .slider_block {
   padding-top: 155px;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  padding-left: 0;
+  padding-right: 0; }
   .slider_block .wrapper {
     display: -webkit-flex;
     display: -moz-flex;
@@ -1598,12 +1600,95 @@ header {
       @media (max-width: 710px) {
         .slider_block .wrapper .slider_block_options {
           display: none; } }
+    @media (max-width: 1248px) {
+      .slider_block .wrapper {
+        margin-left: 24px;
+        margin-right: 24px;
+        width: auto; } }
     @media (max-width: 880px) {
       .slider_block .wrapper {
         margin-bottom: 55px; } }
     @media (max-width: 550px) {
       .slider_block .wrapper {
         margin-bottom: 40px; } }
+  .slider_block .slider {
+    overflow: hidden; }
+    .slider_block .slider .swiper-wrapper .swiper-slide {
+      background: #FFFFFF;
+      border-radius: 24px;
+      max-width: 486px;
+      width: 100%;
+      height: 248px; }
+      .slider_block .slider .swiper-wrapper .swiper-slide .content {
+        margin: 48px; }
+        .slider_block .slider .swiper-wrapper .swiper-slide .content .content_description {
+          font-family: "Onest", sans;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #0F172A;
+          margin-bottom: 30px; }
+        .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom {
+          width: 100%;
+          display: -webkit-flex;
+          display: -moz-flex;
+          display: -ms-flex;
+          display: flex;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+          -webkit-align-items: center;
+          align-items: center; }
+          .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_img {
+            display: block;
+            width: 48px;
+            height: 48px;
+            border-radius: 100px; }
+          .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_name {
+            max-width: 330px;
+            width: 100%;
+            margin-left: 12px;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: flex;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            -webkit-align-items: center;
+            align-items: center; }
+            .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_name span {
+              display: block;
+              font-family: "Onest", sans;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 150%;
+              color: #0F172A; }
+            .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_name svg {
+              display: block;
+              max-width: 50px;
+              width: 100%;
+              height: auto; }
+    @media (max-width: 550px) {
+      .slider_block .slider .swiper-wrapper .swiper-slide {
+        width: 263px;
+        height: 264px; }
+        .slider_block .slider .swiper-wrapper .swiper-slide .content {
+          margin: 20px; }
+          .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_name {
+            margin-left: 10px; }
+            .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_name span {
+              width: 105px;
+              font-size: 14px; }
+            .slider_block .slider .swiper-wrapper .swiper-slide .content .content_bottom .content_name svg {
+              max-width: 47px; }
+      .slider_block .slider .swiper-wrapper .swiper-slide:first-child {
+        margin-left: 20px; } }
+    @media (max-width: 490px) {
+      .slider_block .slider .swiper-wrapper {
+        /*.swiper-slide {
+                    width: 263px!important;
+                }*/ } }
   @media (max-width: 880px) {
     .slider_block {
       padding-top: 120px;

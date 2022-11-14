@@ -1594,6 +1594,8 @@ header {
 .slider_block {
     padding-top: 155px;
     padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
     .wrapper {
         @include dsp-flex;
         @include justify-content-space-between;
@@ -1655,11 +1657,104 @@ header {
                 display: none;
             }
         }
+        @media (max-width: 1248px) {
+            margin-left: 24px;
+            margin-right: 24px;
+            width: auto;
+        }
         @media (max-width: 880px) {
             margin-bottom: 55px;
         }
         @media (max-width: 550px) {
             margin-bottom: 40px;
+        }
+    }
+    .slider {
+        overflow: hidden;
+        .swiper-wrapper {
+            .swiper-slide {
+                background: #FFFFFF;
+                border-radius: 24px;
+                max-width: 486px;
+                width: 100%;
+                height: 248px;
+                .content {
+                    margin: 48px;
+                    .content_description {
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #0F172A;
+                        margin-bottom: 30px;
+                    }
+                    .content_bottom {
+                        width: 100%;
+                        @include dsp-flex;
+                        @include justify-content-space-between;
+                        @include align-items-center;
+                        .content_img {
+                            display: block;
+                            width: 48px;
+                            height: 48px;
+                            border-radius: 100px;
+                        }
+                        .content_name {
+                            max-width: 330px;
+                            width: 100%;
+                            margin-left: 12px;
+                            @include dsp-flex;
+                            @include justify-content-space-between;
+                            @include align-items-center;
+                            span {
+                                display: block;
+                                font-family: $onest;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 150%;
+                                color: #0F172A;
+                            }
+                            svg {
+                                display: block;
+                                max-width: 50px;
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            @media (max-width: 550px) {
+                .swiper-slide {
+                    width: 263px;
+                    height: 264px;
+                    .content {
+                        margin: 20px;
+                        .content_bottom {
+                            .content_name {
+                                margin-left: 10px;
+                                span {
+                                    width: 105px;
+                                    font-size: 14px;
+                                }
+                                svg {
+                                    max-width: 47px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .swiper-slide:first-child {
+                    margin-left: 20px;
+                }
+            }
+            @media (max-width: 490px) {
+                /*.swiper-slide {
+                    width: 263px!important;
+                }*/
+            }
         }
     }
     @media (max-width: 880px) {
