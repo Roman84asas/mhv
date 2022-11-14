@@ -608,6 +608,196 @@ header {
         padding-top: 80px;
     }
 }
+.home_you {
+    padding-top: 160px;
+    .wrapper {
+        @include dsp-flex;
+        @include justify-content-space-between;
+        @include align-items-center;
+        .left_you {
+            max-width: 510px;
+            .you_title {
+                font-family: $onest;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 110%;
+                color: #0F172A;
+                margin-bottom: 24px;
+            }
+            .you_description {
+                font-family: $onest;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #0F172A;
+            }
+        }
+        .right_you {
+            background: #FFFFFF;
+            border-radius: 24px;
+            padding: 50px;
+            max-width: 485px;
+            width: 100%;
+            .right_you_top {
+                max-width: 495px;
+                width: 100%;
+                @include dsp-flex;
+                @include justify-content-space-between;
+                margin-bottom: 49px;
+                .right_you_option {
+                    max-width: 195px;
+                    width: 100%;
+                    .right_you_option_week {
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        color: #0F172A;
+                        margin-bottom: 60px;
+                    }
+                    .right_you_option_title {
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 48px;
+                        line-height: 110%;
+                        color: #0F172A;
+                        margin-bottom: 6px;
+                    }
+                    .right_you_option_descr {
+                        font-family: $onest;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 110%;
+                        color: #0F172A;
+                        opacity: 0.7;
+                    }
+                }
+                .right_you_items {
+                    .right_you_item {
+                        @include dsp-flex;
+                        margin-bottom: 25px;
+                        .right_you_item_check {
+                            @include dsp-flex;
+                            @include justify-content-center;
+                            @include align-items-center;
+                            width: 20px;
+                            height: 20px;
+                            background: #B7F76D;
+                            border-radius: 100px;
+                            margin-right: 10px;
+                            .check {
+                                display: block;
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                        .right_you_item_desc {
+                            max-width: 235px;
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 110%;
+                            color: #0F172A;
+                        }
+                    }
+                    .right_you_item:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .right_you_link {
+                text-decoration: none;
+                max-width: 490px;
+                height: 50px;
+                width: 100%;
+                background: #B7F76D;
+                border-radius: 100px;
+                @include dsp-flex;
+                @include justify-content-center;
+                @include align-items-center;
+                font-family: $onest;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #0F172A;
+            }
+        }
+        @media (max-width: 1135px) {
+            .left_you {
+                .you_title {
+                    font-size: 40px;
+                }
+                .you_description {
+                    font-size: 16px;
+                }
+            }
+        }
+        @media (max-width: 1050px) {
+            @include flex-direction-column;
+            .left_you {
+                .you_title {
+                    font-size: 34px;
+                }
+                margin-bottom: 40px;
+            }
+        }
+        @media (max-width: 625px) {
+            .left_you {
+                .you_title {
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+            }
+            .right_you {
+                padding: 20px;
+                width: auto;
+                .right_you_top {
+                    @include flex-direction-column;
+                    margin-bottom: 40px;
+                    .right_you_option {
+                        .right_you_option_week {
+                            margin-bottom: 20px;
+                        }
+                        margin-bottom: 40px;
+                    }
+                }
+                .right_you_link {
+                    text-decoration: none;
+                    max-width: 490px;
+                    height: 50px;
+                    width: 100%;
+                    background: #B7F76D;
+                    border-radius: 100px;
+                    @include dsp-flex;
+                    @include justify-content-center;
+                    @include align-items-center;
+                    font-family: $onest;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #0F172A;
+                }
+            }
+        }
+    }
+    @media (max-width: 880px) {
+        padding-top: 120px;
+    }
+    @media (max-width: 550px) {
+        padding-top: 80px;
+    }
+}
 
 footer {
     background: #0F172A;
