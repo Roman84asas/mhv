@@ -1057,6 +1057,157 @@ header {
         }
     }
 }
+.accordion {
+    padding-top: 160px;
+    padding-left: 0;
+    padding-right: 0;
+    .accordion_item {
+        padding: 32px 24px;
+        .wrapper {
+            .accordion_item_top {
+                @include dsp-flex;
+                margin-bottom: 24px;
+                cursor: pointer;
+                .accordion_item_number {
+                    max-width: 78px;
+                    width: 100%;
+                    font-family: $onest;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 110%;
+                    color: #D5D6DA;
+                    margin-right: 24px;
+                }
+                .accordion_item_title {
+                    max-width: 588px;
+                    width: 100%;
+                    font-family: $onest;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 48px;
+                    line-height: 110%;
+                    color: #0F172A;
+                }
+                .accordion_item_arrow {
+                    background: #B2FA63;
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 50%;
+                    margin-left: auto;
+                    @include dsp-flex;
+                    @include align-items-center;
+                    @include justify-content-center;
+                    svg {
+                        display: block;
+                        width: 24px;
+                        height: 24px;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            .accordion_item_content {
+                max-width: 588px;
+                width: 100%;
+                font-family: $onest;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #0F172A;
+                opacity: 0.7;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                padding-left: 102px;
+            }
+        }
+        @media (max-width: 880px) {
+            padding: 20px 24px;
+            .wrapper {
+                .accordion_item_top {
+                    margin-bottom: 10px;
+                    .accordion_item_number {
+                        max-width: 50px;
+                        font-size: 38px;
+                        margin-right: 15px;
+                    }
+                    .accordion_item_title {
+                        max-width: 400px;
+                        font-size: 26px;
+                    }
+                    .accordion_item_arrow {
+                        width: 36px;
+                        height: 36px;
+                        svg {
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                }
+                .accordion_item_content {
+                    max-width: 400px;
+                    -webkit-line-clamp: 4;
+                    line-clamp: 4;
+                    padding-left: 65px;
+                }
+            }
+        }
+        @media (max-width: 600px) {
+            .wrapper {
+                .accordion_item_top {
+                    .accordion_item_number {
+                        display: none;
+                    }
+                }
+                .accordion_item_content {
+                    padding-left: 0;
+                }
+            }
+        }
+        @media (max-width: 505px) {
+            .wrapper {
+                .accordion_item_top {
+                    .accordion_item_title {
+                        max-width: 290px;
+                    }
+                }
+                .accordion_item_content {
+                    max-width: 330px;
+                }
+            }
+        }
+    }
+    .active {
+        background: #FFFFFF;
+        .wrapper {
+            .accordion_item_top {
+                .accordion_item_arrow {
+                    background: #0F172A;
+                    svg {
+                        transform: rotate(-90deg);
+                        path {
+                            stroke: #B2FA63;
+                        }
+                    }
+                }
+            }
+            .accordion_item_content {
+                overflow: initial;
+                -webkit-box-orient: initial;
+            }
+        }
+    }
+    @media (max-width: 880px) {
+        padding-top: 120px;
+    }
+    @media (max-width: 550px) {
+        padding-top: 80px;
+    }
+}
 
 footer {
     background: #0F172A;

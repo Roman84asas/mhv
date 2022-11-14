@@ -1051,6 +1051,125 @@ header {
           .home_coming .wrapper .home_coming_items .home_coming_item:last-child {
             margin-bottom: 0; } }
 
+.accordion {
+  padding-top: 160px;
+  padding-left: 0;
+  padding-right: 0; }
+  .accordion .accordion_item {
+    padding: 32px 24px; }
+    .accordion .accordion_item .wrapper .accordion_item_top {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: flex;
+      margin-bottom: 24px;
+      cursor: pointer; }
+      .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_number {
+        max-width: 78px;
+        width: 100%;
+        font-family: "Onest", sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 110%;
+        color: #D5D6DA;
+        margin-right: 24px; }
+      .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_title {
+        max-width: 588px;
+        width: 100%;
+        font-family: "Onest", sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 110%;
+        color: #0F172A; }
+      .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_arrow {
+        background: #B2FA63;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        margin-left: auto;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center; }
+        .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_arrow svg {
+          display: block;
+          width: 24px;
+          height: 24px;
+          transform: rotate(90deg); }
+    .accordion .accordion_item .wrapper .accordion_item_content {
+      max-width: 588px;
+      width: 100%;
+      font-family: "Onest", sans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #0F172A;
+      opacity: 0.7;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      padding-left: 102px; }
+    @media (max-width: 880px) {
+      .accordion .accordion_item {
+        padding: 20px 24px; }
+        .accordion .accordion_item .wrapper .accordion_item_top {
+          margin-bottom: 10px; }
+          .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_number {
+            max-width: 50px;
+            font-size: 38px;
+            margin-right: 15px; }
+          .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_title {
+            max-width: 400px;
+            font-size: 26px; }
+          .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_arrow {
+            width: 36px;
+            height: 36px; }
+            .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_arrow svg {
+              width: 18px;
+              height: 18px; }
+        .accordion .accordion_item .wrapper .accordion_item_content {
+          max-width: 400px;
+          -webkit-line-clamp: 4;
+          line-clamp: 4;
+          padding-left: 65px; } }
+    @media (max-width: 600px) {
+      .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_number {
+        display: none; }
+      .accordion .accordion_item .wrapper .accordion_item_content {
+        padding-left: 0; } }
+    @media (max-width: 505px) {
+      .accordion .accordion_item .wrapper .accordion_item_top .accordion_item_title {
+        max-width: 290px; }
+      .accordion .accordion_item .wrapper .accordion_item_content {
+        max-width: 330px; } }
+  .accordion .active {
+    background: #FFFFFF; }
+    .accordion .active .wrapper .accordion_item_top .accordion_item_arrow {
+      background: #0F172A; }
+      .accordion .active .wrapper .accordion_item_top .accordion_item_arrow svg {
+        transform: rotate(-90deg); }
+        .accordion .active .wrapper .accordion_item_top .accordion_item_arrow svg path {
+          stroke: #B2FA63; }
+    .accordion .active .wrapper .accordion_item_content {
+      overflow: initial;
+      -webkit-box-orient: initial; }
+  @media (max-width: 880px) {
+    .accordion {
+      padding-top: 120px; } }
+  @media (max-width: 550px) {
+    .accordion {
+      padding-top: 80px; } }
+
 footer {
   background: #0F172A;
   padding-top: 45px;

@@ -29,5 +29,13 @@
         document.querySelector("html").style.overflow = 'auto';
     })
 
+    document.querySelectorAll('.accordion_item').forEach(function (element) {
+        element.addEventListener('click', function () {
+            document.querySelectorAll('.accordion_item').forEach(function (el) {
+                el.classList.remove('active');
+            })
+            element.classList.add('active');
+        })
+    })
 
 })();
