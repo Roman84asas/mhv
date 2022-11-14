@@ -1250,7 +1250,136 @@ header {
         }
         .result_items {
             .result_item {
-                
+                width: 100%;
+                background: #FFFFFF;
+                border-radius: 24px;
+                margin-bottom: 24px;
+                @include dsp-flex;
+                @include justify-content-space-between;
+                .result_info {
+                    @include dsp-flex;
+                    max-width: 565px;
+                    margin: 48px;
+                    .result_img {
+                        max-width: 200px;
+                        width: 1005px;
+                        max-height: 200px;
+                        height: auto;
+                        display: block;
+                        border-radius: 50px;
+                        margin-right: 24px;
+                    }
+                    .result_info_content {
+                        max-width: 340px;
+                        .result_info_title {
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 135%;
+                            color: #0F172A;
+                            margin-bottom: 14px;
+                        }
+                        .result_info_descr {
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #0F172A;
+                            opacity: 0.7;
+                            margin-bottom: 14px;
+                        }
+                        .result_info_link {
+                            text-decoration: none;
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #000000;
+                        }
+                    }
+                }
+                .result_item_date {
+                    @include dsp-flex;
+                    @include align-items-center;
+                    @include justify-content-center;
+                    background: #CBB9F0;
+                    border-radius: 24px;
+                    max-width: 485px;
+                    width: 100%;
+                    .result_item_date_week {
+                        max-width: 160px;
+                        margin-left: 48px;
+                        .result_item_date_week_numb {
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 96px;
+                            line-height: 110%;
+                            text-align: center;
+                            color: #FFFFFF;
+                            margin-bottom: 16px;
+                        }
+                        .result_item_date_week_desc {
+                            @include dsp-flex;
+                            @include align-items-center;
+                            @include justify-content-center;
+                            background: rgba(255, 255, 255, 0.3);
+                            border-radius: 50px;
+                            padding: 6px 8px;
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 130%;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .result_item_date_kg {
+                        max-width: 160px;
+                        .result_item_date_kg_numb {
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 96px;
+                            line-height: 110%;
+                            text-align: center;
+                            color: #FFFFFF;
+                            margin-bottom: 16px;
+                        }
+                        .result_item_date_kg_descr {
+                            @include dsp-flex;
+                            @include align-items-center;
+                            @include justify-content-center;
+                            background: rgba(255, 255, 255, 0.3);
+                            border-radius: 50px;
+                            padding: 6px 8px;
+                            font-family: $onest;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 130%;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+            .result_item_child {
+                margin-bottom: 64px;
+                .result_item_date {
+                    background: #FF7833;
+                }
+            }
+            .moore_result {
+                text-decoration: none;
+                font-family: $onest;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 150%;
+                color: #000000;
             }
         }
     }
