@@ -1311,7 +1311,7 @@ header {
                     width: 100%;
                     .result_item_date_week {
                         max-width: 160px;
-                        margin-left: 48px;
+                        margin-right: 48px;
                         .result_item_date_week_numb {
                             font-family: $onest;
                             font-style: normal;
@@ -1365,14 +1365,115 @@ header {
                         }
                     }
                 }
+                @media (max-width: 1080px) {
+                    .result_info {
+                        margin: 25px;
+                    }
+                    .result_item_date {
+                        max-width: 355px;
+                        .result_item_date_week {
+                            margin-right: 40px;
+                            .result_item_date_week_numb {
+                                font-size: 85px;
+                                margin-bottom: 12px;
+                            }
+                            .result_item_date_week_desc {
+                                font-size: 16px;
+                            }
+                        }
+                        .result_item_date_kg {
+                            .result_item_date_kg_numb {
+                                font-size: 85px;
+                                margin-bottom: 12px;
+                            }
+                            .result_item_date_kg_descr {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 880px) {
+                    @include flex-direction-column;
+                    @include align-items-center;
+                    .result_info {
+                        order: 1;
+                        margin: 25px 25px 40px;
+                    }
+                    .result_item_date {
+                        order: 2;
+                        max-width: 880px;
+                        padding-top: 25px;
+                        padding-bottom: 25px;
+                        .result_item_date_week {
+                            margin-right: 40px;
+                            .result_item_date_week_numb {
+                                font-size: 85px;
+                                margin-bottom: 12px;
+                            }
+                            .result_item_date_week_desc {
+                                font-size: 16px;
+                            }
+                        }
+                        .result_item_date_kg {
+                            .result_item_date_kg_numb {
+                                font-size: 85px;
+                                margin-bottom: 12px;
+                            }
+                            .result_item_date_kg_descr {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+                @media (max-width: 620px) {
+                    .result_info {
+                        @include flex-direction-column;
+                        @include align-items-center;
+                        .result_img {
+                            margin-right: 0;
+                            margin-bottom: 70px;
+                        }
+                        .result_info_content {
+                            max-width: 620px;
+                            .result_info_title {
+                                text-align: center;
+                            }
+                            .result_info_descr {
+                                text-align: center;
+                            }
+                            .result_info_link {
+                                display: block;
+                                @include margin-left-right-auto;
+                                @include fit_content;
+                            }
+                        }
+                    }
+                    .result_item_date {
+                        .result_item_date_week {
+                            margin-right: 20px;
+                            .result_item_date_week_numb {
+                                font-size: 64px;
+                            }
+                        }
+                        .result_item_date_kg {
+                            .result_item_date_kg_numb {
+                                font-size: 64px;
+                            }
+                        }
+                    }
+                }
             }
             .result_item_child {
                 margin-bottom: 64px;
                 .result_item_date {
                     background: #FF7833;
                 }
+                @media (max-width: 620px) {
+                    margin-bottom: 40px;
+                }
             }
             .moore_result {
+                display: block;
                 text-decoration: none;
                 font-family: $onest;
                 font-style: normal;
@@ -1380,6 +1481,9 @@ header {
                 font-size: 18px;
                 line-height: 150%;
                 color: #000000;
+                @media (max-width: 620px) {
+                    width: 215px;
+                }
             }
         }
     }
@@ -1390,6 +1494,8 @@ header {
         padding-top: 80px;
     }
 }
+
+
 footer {
     background: #0F172A;
     padding-top: 45px;

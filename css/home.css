@@ -1275,7 +1275,7 @@ header {
       width: 100%; }
       .result .wrapper .result_items .result_item .result_item_date .result_item_date_week {
         max-width: 160px;
-        margin-left: 48px; }
+        margin-right: 48px; }
         .result .wrapper .result_items .result_item .result_item_date .result_item_date_week .result_item_date_week_numb {
           font-family: "Onest", sans;
           font-style: normal;
@@ -1332,11 +1332,87 @@ header {
           font-size: 18px;
           line-height: 130%;
           color: #FFFFFF; }
+    @media (max-width: 1080px) {
+      .result .wrapper .result_items .result_item .result_info {
+        margin: 25px; }
+      .result .wrapper .result_items .result_item .result_item_date {
+        max-width: 355px; }
+        .result .wrapper .result_items .result_item .result_item_date .result_item_date_week {
+          margin-right: 40px; }
+          .result .wrapper .result_items .result_item .result_item_date .result_item_date_week .result_item_date_week_numb {
+            font-size: 85px;
+            margin-bottom: 12px; }
+          .result .wrapper .result_items .result_item .result_item_date .result_item_date_week .result_item_date_week_desc {
+            font-size: 16px; }
+        .result .wrapper .result_items .result_item .result_item_date .result_item_date_kg .result_item_date_kg_numb {
+          font-size: 85px;
+          margin-bottom: 12px; }
+        .result .wrapper .result_items .result_item .result_item_date .result_item_date_kg .result_item_date_kg_descr {
+          font-size: 16px; } }
+    @media (max-width: 880px) {
+      .result .wrapper .result_items .result_item {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center; }
+        .result .wrapper .result_items .result_item .result_info {
+          order: 1;
+          margin: 25px 25px 40px; }
+        .result .wrapper .result_items .result_item .result_item_date {
+          order: 2;
+          max-width: 880px;
+          padding-top: 25px;
+          padding-bottom: 25px; }
+          .result .wrapper .result_items .result_item .result_item_date .result_item_date_week {
+            margin-right: 40px; }
+            .result .wrapper .result_items .result_item .result_item_date .result_item_date_week .result_item_date_week_numb {
+              font-size: 85px;
+              margin-bottom: 12px; }
+            .result .wrapper .result_items .result_item .result_item_date .result_item_date_week .result_item_date_week_desc {
+              font-size: 16px; }
+          .result .wrapper .result_items .result_item .result_item_date .result_item_date_kg .result_item_date_kg_numb {
+            font-size: 85px;
+            margin-bottom: 12px; }
+          .result .wrapper .result_items .result_item .result_item_date .result_item_date_kg .result_item_date_kg_descr {
+            font-size: 16px; } }
+    @media (max-width: 620px) {
+      .result .wrapper .result_items .result_item .result_info {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center; }
+        .result .wrapper .result_items .result_item .result_info .result_img {
+          margin-right: 0;
+          margin-bottom: 70px; }
+        .result .wrapper .result_items .result_item .result_info .result_info_content {
+          max-width: 620px; }
+          .result .wrapper .result_items .result_item .result_info .result_info_content .result_info_title {
+            text-align: center; }
+          .result .wrapper .result_items .result_item .result_info .result_info_content .result_info_descr {
+            text-align: center; }
+          .result .wrapper .result_items .result_item .result_info .result_info_content .result_info_link {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            width: -moz-fit-content; }
+      .result .wrapper .result_items .result_item .result_item_date .result_item_date_week {
+        margin-right: 20px; }
+        .result .wrapper .result_items .result_item .result_item_date .result_item_date_week .result_item_date_week_numb {
+          font-size: 64px; }
+      .result .wrapper .result_items .result_item .result_item_date .result_item_date_kg .result_item_date_kg_numb {
+        font-size: 64px; } }
   .result .wrapper .result_items .result_item_child {
     margin-bottom: 64px; }
     .result .wrapper .result_items .result_item_child .result_item_date {
       background: #FF7833; }
+    @media (max-width: 620px) {
+      .result .wrapper .result_items .result_item_child {
+        margin-bottom: 40px; } }
   .result .wrapper .result_items .moore_result {
+    display: block;
     text-decoration: none;
     font-family: "Onest", sans;
     font-style: normal;
@@ -1344,6 +1420,9 @@ header {
     font-size: 18px;
     line-height: 150%;
     color: #000000; }
+    @media (max-width: 620px) {
+      .result .wrapper .result_items .moore_result {
+        width: 215px; } }
   @media (max-width: 880px) {
     .result {
       padding-top: 120px; } }
