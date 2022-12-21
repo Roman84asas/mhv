@@ -45,7 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,6 +74,7 @@
       <workItem from="1668351263315" duration="10000" />
       <workItem from="1668351799934" duration="16177000" />
       <workItem from="1668416605909" duration="30697000" />
+      <workItem from="1671652464118" duration="305000" />
     </task>
     <servers />
   </component>
