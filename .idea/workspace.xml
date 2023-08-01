@@ -47,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/OSPanel/domains/na-chile/wp-content/themes/na-chile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -82,6 +82,7 @@
       <workItem from="1671807408767" duration="1803000" />
       <workItem from="1671811308598" duration="276000" />
       <workItem from="1671952777029" duration="545000" />
+      <workItem from="1690887878982" duration="3112000" />
     </task>
     <servers />
   </component>
