@@ -47,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/OSPanel/domains/polygon" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -82,7 +82,7 @@
       <workItem from="1671807408767" duration="1803000" />
       <workItem from="1671811308598" duration="276000" />
       <workItem from="1671952777029" duration="545000" />
-      <workItem from="1690887878982" duration="3112000" />
+      <workItem from="1690887878982" duration="3359000" />
     </task>
     <servers />
   </component>
@@ -102,29 +102,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="845" y="354" width="705" height="332" key="#File_Watchers" timestamp="1668348118819">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1690891326769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="845" y="354" width="705" height="332" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1668348118819" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1668353910491">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668353910491" />
-    <state x="637" y="160" width="662" height="678" key="EditFileWatcherDialog" timestamp="1668349795456">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="637" y="160" width="662" height="678" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668349795456" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1671953330525">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1671953330525" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1668352065575">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1668352065575" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1668347380686">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1668347380686" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1690891326769" />
   </component>
 </project>
