@@ -8,13 +8,13 @@
   font-family: "Onest";
   src: url("../fonts/OnestRegular1602-hint.woff") format("opentype");
   font-style: normal;
-  font-weight: 400; }
+  font-weight: 500; }
 
 @font-face {
   font-family: "Onest";
   src: url("../fonts/OnestBold1602-hint.woff") format("opentype");
   font-style: normal;
-  font-weight: 500; }
+  font-weight: 700; }
 
 .wrapper {
   max-width: 1200px;

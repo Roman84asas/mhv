@@ -47,19 +47,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/OSPanel/domains/polygon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\mhv\libs" />
-      <recent name="C:\Users\User\Desktop\mhv\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\бывшие проекты\mhv\duromine-meal-plan" />
       <recent name="C:\Users\User\Desktop\mhv\images" />
       <recent name="C:\Users\User\Desktop\mhv\fonts" />
       <recent name="C:\Users\User\Desktop\mhv\imges" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\mhv\libs" />
+      <recent name="C:\Users\User\Desktop\mhv\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,6 +85,7 @@
       <workItem from="1671811308598" duration="276000" />
       <workItem from="1671952777029" duration="545000" />
       <workItem from="1690887878982" duration="3359000" />
+      <workItem from="1690970476490" duration="13753000" />
     </task>
     <servers />
   </component>
