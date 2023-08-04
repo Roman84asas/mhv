@@ -53,16 +53,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\mhv\libs" />
-      <recent name="C:\Users\User\Desktop\mhv\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\бывшие проекты\mhv\contacts" />
+      <recent name="F:\бывшие проекты\mhv\about-us" />
       <recent name="F:\бывшие проекты\mhv" />
       <recent name="F:\бывшие проекты\mhv\css" />
       <recent name="F:\бывшие проекты\mhv\ozempic-meal-plan" />
-      <recent name="F:\бывшие проекты\mhv\keto-diet-plan" />
-      <recent name="F:\бывшие проекты\mhv\fodmap-plan" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\mhv\libs" />
+      <recent name="C:\Users\User\Desktop\mhv\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +88,8 @@
       <workItem from="1690887878982" duration="3359000" />
       <workItem from="1690970476490" duration="14382000" />
       <workItem from="1691139906645" duration="646000" />
-      <workItem from="1691150769396" duration="3833000" />
+      <workItem from="1691150769396" duration="5718000" />
+      <workItem from="1691156957661" duration="2617000" />
     </task>
     <servers />
   </component>
