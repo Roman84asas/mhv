@@ -951,7 +951,7 @@
     display: block;
     padding-left: 78px;
     position: relative;
-    font-size: 24px;
+    font-size: 24px!important;
     margin-bottom: 30px;
   }
 
@@ -1218,6 +1218,7 @@
     position: relative;
     padding-left: 17px;
     margin-bottom: 15px;
+    line-height: 130%;
     /* max-width: 327px; */
   }
 
@@ -5170,6 +5171,17 @@
   }
 
   @media all and (max-width: 768px) {
+    .team-specialist-description__parapraph {
+      line-height: 130%;
+      font-size: 16px;
+    }
+    .team-specialist-description__parapraph {
+      font-size: 16px;
+    }
+    .team-head {
+      margin-bottom: 40px;
+    }
+
     .about__our-title {
       margin-top: 20px;
     }
@@ -5389,15 +5401,6 @@
     .contacts-form {
       width: 90%;
       margin: 0 auto;
-    }
-
-    .contacts-adress__title {
-      font-size: 18px;
-    }
-
-    .contacts-text {
-      font-size: 18px;
-      margin-bottom: 35px;
     }
 
     .contacts-container__inner {
@@ -6504,8 +6507,8 @@
 
     .moneyback__head {
       background-color: var(--purple-light);
-      padding-bottom: 279px;
-      padding-top: 90px;
+      padding-bottom: 80px;
+      padding-top: 180px;
     }
 
     .about__head-image {

@@ -2424,6 +2424,10 @@ border-radius: 50%;
     margin-bottom: 34px;
   }
 
+  .menu--active {
+    height: 160px!important;
+    width: 300px!important;
+  }
   /* .header__menu-item:first-child {
   margin-bottom: 0;
 } */
@@ -2486,7 +2490,7 @@ border-radius: 50%;
   /* .open-content-show .menu-plans__item-link{
     display: none;
   } */
-  .header__menu-item .menu-plans__items {
+  .header__menu-item .open-content {
     display: none;
   }
   .header__menu-item.menu--active .menu-plans__items {
@@ -3040,7 +3044,7 @@ border-radius: 50%;
   } */
   
   .hero__img img{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     display: block;

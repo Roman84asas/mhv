@@ -47,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/OSPanel/domains/asterconf/wp-content/themes/asterconf" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -90,6 +90,7 @@
       <workItem from="1691139906645" duration="646000" />
       <workItem from="1691150769396" duration="5718000" />
       <workItem from="1691156957661" duration="2617000" />
+      <workItem from="1691160713813" duration="5519000" />
     </task>
     <servers />
   </component>
@@ -109,9 +110,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1691143696203">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1691167934393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1691143696203" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1691167934393" />
   </component>
 </project>
