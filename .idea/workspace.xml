@@ -47,21 +47,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/OSPanel/domains/new.construct" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\бывшие проекты\mhv\duromine-meal-plan" />
-      <recent name="C:\Users\User\Desktop\mhv\images" />
-      <recent name="C:\Users\User\Desktop\mhv\fonts" />
-      <recent name="C:\Users\User\Desktop\mhv\imges" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\mhv\libs" />
       <recent name="C:\Users\User\Desktop\mhv\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\бывшие проекты\mhv" />
+      <recent name="F:\бывшие проекты\mhv\css" />
+      <recent name="F:\бывшие проекты\mhv\ozempic-meal-plan" />
+      <recent name="F:\бывшие проекты\mhv\keto-diet-plan" />
+      <recent name="F:\бывшие проекты\mhv\fodmap-plan" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,6 +87,8 @@
       <workItem from="1671952777029" duration="545000" />
       <workItem from="1690887878982" duration="3359000" />
       <workItem from="1690970476490" duration="14382000" />
+      <workItem from="1691139906645" duration="646000" />
+      <workItem from="1691150769396" duration="3833000" />
     </task>
     <servers />
   </component>
@@ -105,9 +108,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1690989769048">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1691143696203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1690989769048" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1691143696203" />
   </component>
 </project>
