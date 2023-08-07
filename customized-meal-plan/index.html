@@ -18,6 +18,9 @@
 	<meta name="description"
 		content="With a custom meal planner, you can easily create an optimal customized diet for weight loss online. A nutrition meal plan created by professional nutritionists in Australia is unique and 100% working.">
 	<link rel='shortcut icon' type='image/x-icon' href='https://myhealthyweight.com.au/favicon.ico'>
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 	<link rel="stylesheet" href="https://myhealthyweight.com.au/plans/css/style.css">
 
     <link href="https://myhealthyweight.com.au/plans/css/widgets.css" rel="stylesheet">
@@ -77,14 +80,14 @@
 												href="https://myhealthyweight.com.au/plans/customized-meal-plan/">Customized
 												Meal Plan</a>
 										</li>
-										<!-- <li class="menu-plans__item">
+										 <li class="menu-plans__item">
                                             <a class="menu-plans__item-link" href="https://myhealthyweight.com.au/plans/ozempic-meal-plan/">Ozempic
                                                 Meal Plan</a>
                                         </li>
                                         <li class="menu-plans__item">
                                             <a class="menu-plans__item-link"
                                                 href="https://myhealthyweight.com.au/plans/duromine-meal-plan/">Duromine Meal Plan</a>
-                                        </li> -->
+                                        </li>
 									</ul>
 								</li>
 								<li class="header__menu-item">
@@ -381,6 +384,42 @@
 							people suffering from diabetes, high cholesterol, chronic fatigue, etc.. However, we don’t
 							just take the principles of LCHF diet and make up a Meal Plan.
 						</p>
+						<style>
+							@media (max-width: 768px) {
+								.create .create__container {
+									padding-right: 0;
+								}
+								.create .create__container .create__body .create__text {
+									padding-right: 20px;
+									box-sizing: border-box;
+								}
+								.create__items {
+									grid-template-columns: 1fr;
+								}
+
+								.create__item-text {
+									width: 225px;
+								}
+
+								.create__item .slick-slides {
+									height: auto;
+									flex: 0 0 auto;
+								}
+
+								.create__item {
+									margin-right: 20px;
+									max-height: 160px;
+									min-height: 160px;
+									display: flex !important;
+									flex-direction: column;
+									max-width: 265px;
+								}
+								.slick-track {
+									display: flex;
+									overflow: hidden;
+								}
+							}
+						</style>
 					</div>
 				</div>
 			</section>
@@ -1274,6 +1313,49 @@
 									it</a>
 							</div>
 						</div>
+						<style>
+							@media (max-width: 768px) {
+								.program .program__container {
+									padding-right: 0;
+								}
+								.program .program__container .program__body .program__title {
+									padding-right: 20px;
+									box-sizing: border-box;
+								}
+								.program .program__container .program__body .program__attention {
+									padding-right: 20px;
+									box-sizing: border-box;
+								}
+								.program .program__container .program__body .program__button {
+									padding-right: 20px;
+									box-sizing: border-box;
+								}
+								.program .program__container .program__body .program__content {
+									display: grid;
+									grid-template-columns: 1fr;
+									grid-template-rows: min-content;
+									grid-gap: 24px;
+								}
+								.program__item {
+									width: 265px;
+									height: 385px;
+									margin-right: 20px;
+								}
+								.program__item .program__descr {
+									padding: 40px 20px 20px;
+									display: block;
+									box-sizing: border-box;
+									height: auto;
+								}
+								.program__item .program__descr .program__text {
+									font-size: 16px;
+									font-style: normal;
+									font-weight: 400;
+									line-height: 150%;
+									padding: 0;
+								}
+							}
+						</style>
 					</div>
 				</div>
 			</section>
@@ -1410,7 +1492,9 @@
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://myhealthyweight.com.au/plans/js/app.js"></script>
-	<script src="https://myhealthyweight.com.au/plans/js/script.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!--<script src="https://myhealthyweight.com.au/plans/js/script.js"></script>-->
+	<script src="https://myhealthyweight.com.au/js/script.js"></script>
     <script src="https://myhealthyweight.com.au/plans/js/widgets.js"></script>
 </body>
 
