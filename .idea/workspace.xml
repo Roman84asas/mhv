@@ -47,22 +47,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/OSPanel/domains/asterconf/wp-content/themes/asterconf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\mhv\libs" />
+      <recent name="C:\Users\User\Desktop\mhv\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\бывшие проекты\mhv\js" />
       <recent name="F:\бывшие проекты\mhv\contacts" />
       <recent name="F:\бывшие проекты\mhv\about-us" />
       <recent name="F:\бывшие проекты\mhv" />
       <recent name="F:\бывшие проекты\mhv\css" />
-      <recent name="F:\бывшие проекты\mhv\ozempic-meal-plan" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\mhv\libs" />
-      <recent name="C:\Users\User\Desktop\mhv\fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,6 +93,7 @@
       <workItem from="1691160713813" duration="5519000" />
       <workItem from="1691222094936" duration="31000" />
       <workItem from="1691304397524" duration="228000" />
+      <workItem from="1691398513842" duration="3432000" />
     </task>
     <servers />
   </component>
