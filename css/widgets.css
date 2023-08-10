@@ -17,8 +17,7 @@
   font-weight: 700; }
 
 .my_container {
-  padding-left: 15px;
-  padding-right: 15px;
+  display: none;
   max-width: 1470px;
   box-sizing: border-box;
   width: 100%;
@@ -309,6 +308,8 @@
           max-width: 450px; }
         .plan_items .plan_item .link_test {
           max-width: 950px; }
+        .plan_items .plan_item .general_meal_plans {
+          width: 100%; }
       .plan_items .black_color {
         margin-left: auto;
         margin-right: auto; }

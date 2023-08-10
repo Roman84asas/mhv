@@ -6,8 +6,7 @@
 @import "Variable/mixin";
 
 .my_container {
-    padding-left: 15px;
-    padding-right: 15px;
+    display: none;
     max-width: 1470px;
     box-sizing: border-box;
     width: 100%;
@@ -324,6 +323,9 @@
             }
             .link_test {
                 max-width: 950px;
+            }
+            .general_meal_plans {
+                width: 100%;
             }
         }
         .black_color {
