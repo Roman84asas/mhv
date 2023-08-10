@@ -47,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/OSPanel/domains/polygon/wp-content/themes/polygon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -94,6 +94,7 @@
       <workItem from="1691222094936" duration="31000" />
       <workItem from="1691304397524" duration="228000" />
       <workItem from="1691398513842" duration="8260000" />
+      <workItem from="1691665915050" duration="1302000" />
     </task>
     <servers />
   </component>
